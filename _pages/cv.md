@@ -9,8 +9,7 @@ last_updated: "{{ site.time | date: '%B %d, %Y' }}"
 ---
 {% include base_path %}
 
-[Download PDF of CV](https://example.com/path-to-your-cv.pdf) or [Open PDF](https://example.com/path-to-your-cv.pdf)
-
+[Download PDF of CV](/files/Eliyas_K_CV_2024.pdf)
 
 Education
 ======
