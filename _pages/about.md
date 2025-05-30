@@ -1,12 +1,10 @@
 ---
 permalink: /
-# title: "About"  
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
 
 <html lang="en">
 <head>
@@ -20,16 +18,8 @@ redirect_from:
             color: #333;
             line-height: 1.6;
             margin: 1px;
-            margin-right:10px;
+            margin-right: 10px;
         }
-        /* .container {
-            background-color: #fff; */
-            /* padding: 20px; */
-            /* border-radius: 10px; */
-            /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
-            /* max-width: 800px; */
-            /* margin: auto; */
-        /* }  */
         h1, h2, h3 {
             color: #444;
         }
@@ -47,32 +37,22 @@ redirect_from:
         .competency-item img {
             width: 50px;
             height: 50px;
+            object-fit: contain;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>About Me</h1>
-        <p>I am Eliyas Kidanemariam Abraha, Erasmus Mundus Joint Master's student  in Intelligent Field Robotic Systems (IFRoS) specializing in Autonomous System. My academic journey has honed my skills in Computer Vision and Mobile Robot Navigation, enabling me to develop innovative solutions in the field of robotics. With a strong background in computer science, I have experience in mobile robot navigation in simulation as well as real world environment.</p>
-        
-        <h2>Education</h2>
-        <ul>
-            <li><strong>Erasmus Mundus Joint Master’s in Intelligent Field Robotic Systems (IFRoS)</strong> - University of Girona (Spain), Eötvös Loránd University (Hungary)<br>
-                <em>Main Modules: Autonomous Systems, Machine Learning, Probabilistic Robotics, Robot Manipulation,3d Sensor Fusion , Computer Vision , Deep Neural Network Development and Hands on Projects </em>
-            </li>
-            <li><strong>B.Sc. in Computer Science and Engineering</strong> - Mekelle University (Ethiopia)<br>
-                <em>Graduated with Very Great Distinction, GPA: 3.92/4.0</em>
-            </li>
-        </ul>
+        <p>I am <strong>Eliyas Kidanemariam Abraha</strong>, an Erasmus Mundus Joint Master's student in Intelligent Field Robotic Systems (IFRoS), specializing in autonomous navigation, perception systems, and AI for robotics. My experience spans robust LiDAR-based localization, sensor fusion, and real-world deployment of autonomous systems. I am passionate about applying computer vision, SLAM, and machine learning to develop scalable solutions for intelligent mobile robots.</p>
 
-        <h2>Passion</h2>
-        <p>I am particularly interested in the areas of Computer Vision, Mobile Robot Navigation, and Machine Learning. My projects have involved implementing algorithms for path planning, SLAM, feature tracking, and sensor fusion. I strive to apply my knowledge to solve real-world problems, making robotics more efficient and intelligent.</p>
+        <p>My background includes internships in both academic and industrial settings. I have worked on LiDAR-Inertial fusion with real-time factor graph optimization, precision agriculture path planning, and point cloud-based object tracking. I strive to bridge theory and practice through reproducible research and engineering solutions that advance robotic autonomy.</p>
 
         <h2>Digital Competency</h2>
         <div class="digital-competency">
             <div class="competency-item">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Ros_logo.png" alt="ROS">
-                <span>ROS (Robot Operating System)</span>
+                <span>ROS / ROS2</span>
             </div>
             <div class="competency-item">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" alt="PyTorch">
@@ -81,6 +61,10 @@ redirect_from:
             <div class="competency-item">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/OpenCV_Logo_with_text_svg_version.svg" alt="OpenCV">
                 <span>OpenCV</span>
+            </div>
+            <div class="competency-item">
+                <img src="https://pointclouds.org/assets/images/pcl_logo.png" alt="PCL">
+                <span>PCL (Point Cloud Library)</span>
             </div>
             <div class="competency-item">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Gazebo_Sim_logo.png" alt="Gazebo">

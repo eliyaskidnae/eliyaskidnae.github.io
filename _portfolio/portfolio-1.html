@@ -1,34 +1,26 @@
 ---
 title: "Autonomous Exploration of Unknown Environments Using Dubins Path-Oriented RRT*"
-excerpt: "This project focused on exploration and path planning techniques for differential drive robots in unknown environments. By leveraging frontier-based exploration, RRT* with Dubins state space, and high-resolution 2D Lidar, the robot can efficiently and safely navigate.
+excerpt: "This project focuses on exploration and path planning techniques for differential drive robots in unknown environments. Leveraging frontier-based exploration, RRT* with Dubins state space, and high-resolution 2D LiDAR, the system enables efficient and safe autonomous navigation.
 <br/><img src='/files/hoplanning.gif' alt='Top Image or GIF'><br/> 
-    <a href='https://github.com/eliyaskidnae/Autonomous-Mobile-Robot-Navigation-and-Exploration' target='_blank'><i class='fab fa-github'></i> GitHub</a>
-    <a href='/files/Planning_Report.pdf' target='_blank'><i class='fas fa-file-alt'></i> Report</a>
-    <a href='https://drive.google.com/file/d/1u8bFsBzKBwW5UvCEE4pjqxqb-E_p4iff/view' target='_blank'><i class='fab fa-youtube'></i> Video</a>
+<a href='https://github.com/eliyaskidnae/Autonomous-Mobile-Robot-Navigation-and-Exploration' target='_blank'><i class='fab fa-github'></i> GitHub</a>
+<a href='/files/Planning_Report.pdf' target='_blank'><i class='fas fa-file-alt'></i> Report</a>
+<a href='https://drive.google.com/file/d/1u8bFsBzKBwW5UvCEE4pjqxqb-E_p4iff/view' target='_blank'><i class='fab fa-youtube'></i> Video</a>
 "
 collection: portfolio
 ---
-Autonomous exploration and navigation in unknown environments pose significant
-challenges for robotics, particularly for differential drive robots that must 
-navigate dynamically and efficiently in real time. This paper introduces an enhanced 
-software architecture tailored for such robots, integrating advanced technologies 
-to enhance their autonomous capabilities. At the core of this system is a frontier-based
-exploration strategy that leverages Rapidlyexploring Random Trees (RRT*), customized with 
-a Dubin’s state space to ensure the generation of feasible and collisionfree paths. 
-<br/>
-The robot’s perception is powered by a high-resolution 2D Lidar,
- enabling precise detection and mapping of obstacles. 
- The path planning component of the architecture utilizes RRT* for global exploration,
-  optimized through a comprehensive cost function and post-processing methods to refine
-   path quality. A greedy algorithm is employed to select the next frontier to explore,
-    focusing on reducing movement costs by prioritizing locally interesting locations.
-This strategic approach ensures efficient coverage of unknown areas.
-<br/><img src='/files/hoplanning.gif' alt='Top Image or GIF'><br/> 
+
+Autonomous exploration and navigation in unknown environments present significant challenges for robotics—especially for differential drive robots, which require dynamically feasible and efficient path planning in real time. This project presents a robust software architecture designed specifically for such scenarios, integrating key technologies to enhance robotic autonomy.
+
+At the heart of the system is a <strong>frontier-based exploration strategy</strong> that uses <strong>RRT*</strong> (Rapidly-exploring Random Trees Star) tailored with a <strong>Dubins state space</strong>, ensuring the generation of smooth, feasible, and collision-free trajectories suitable for non-holonomic robots.
+
+The robot’s perception system relies on a <strong>high-resolution 2D LiDAR</strong>, enabling accurate obstacle detection and real-time mapping of the environment. The global path planner employs <strong>RRT*</strong> enhanced with a custom cost function and <strong>post-processing optimization</strong> to improve path quality. To decide on the next frontier to explore, a <strong>greedy selection algorithm</strong> prioritizes locally valuable regions, effectively minimizing traversal cost and improving exploration efficiency.
+
+Together, these components create a system capable of efficiently covering unknown environments with a strong balance between <strong>global planning</strong> and <strong>local adaptability</strong>.
+
+<br/><img src='/files/hoplanning.gif' alt='Exploration Path Planning Animation'><br/> 
+
 <div style='display: flex; gap: 10px;'>
-  
     <a href='https://github.com/eliyaskidnae/Autonomous-Mobile-Robot-Navigation-and-Exploration' target='_blank'><i class='fab fa-github'></i> GitHub</a>
     <a href='/files/Planning_Report.pdf' target='_blank'><i class='fas fa-file-alt'></i> Report</a>
     <a href='https://drive.google.com/file/d/1u8bFsBzKBwW5UvCEE4pjqxqb-E_p4iff/view' target='_blank'><i class='fab fa-youtube'></i> Video</a>
 </div>
-
-
