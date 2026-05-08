@@ -6,111 +6,149 @@ redirect_from:
   - /about.html
 ---
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Eliyas Kidanemariam Abraha</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            line-height: 1.6;
-            margin: 1px;
-            margin-right: 10px;
-        }
-        h1, h2, h3 {
-            color: #444;
-        }
-        .highlight {
-            color: #1a73e8;
-            /* font-weight: bold; */
-        }
-        .digital-competency {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            margin-top: 20px;
-        }
-        .competency-item {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .competency-item img {
-            width: 50px;
-            height: 50px;
-            object-fit: contain;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me | Robotics Career</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      background: #f7f9fc;
+      color: #1f2937;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 24px;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 48px;
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 12px;
+      color: #111827;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      color: #4b5563;
+      margin-bottom: 36px;
+    }
+
+    p {
+      font-size: 17px;
+      margin-bottom: 22px;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .highlight {
+      font-weight: 600;
+      color: #111827;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #6b7280;
+      text-align: center;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 28px;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>About Me</h1>
-        <p>I am <strong>Eliyas Kidanemariam Abraha</strong>, a master's student in the <span class="highlight">Erasmus Mundus Joint Master in Intelligent Field Robotic Systems (IFRoS)</span>, hosted by <a href="https://www.udg.edu" target="_blank">University of Girona</a> (Spain) and <a href="https://www.elte.hu" target="_blank">Eötvös Loránd University</a> (Hungary). I specialize in <span class="highlight">autonomous systems, perception, and AI for robotics</span>.</p>
+  <main class="container">
+    <section class="card">
+      <h1>About Me</h1>
+      <p class="subtitle">Robotics Engineer | Research Engineer | Autonomous Systems Enthusiast</p>
 
-        <p>My expertise spans <span class="highlight">path planning, visual-inertial and LiDAR-inertial odometry, SLAM, and multi-sensor fusion</span> using both <span class="highlight">Extended Kalman Filters (EKF)</span> and <span class="highlight">factor graph optimization</span>. I have hands-on experience in <span class="highlight">point cloud processing, feature-based scan matching</span>, and map-based localization, with a focus on enabling robust navigation in GNSS-denied environments.</p>
+      <p>
+        My journey into robotics started long before I ever worked with robots. I began with a
+        <span class="highlight">Bachelor’s degree in Computer Science and Engineering</span>, where I developed
+        a strong foundation in software development, backend systems, APIs, data structures, and algorithms.
+        During those years, I learned how software systems are designed, optimized, and scaled, while also
+        developing a deep interest in solving complex technical problems.
+      </p>
 
-        <p>I am currently a research intern at <a href="https://www.saxion.edu/business-and-research/research/smart-industry/mechatronics" target="_blank">Saxion University of Applied Sciences</a>, where I work on <span class="highlight">LiDAR-based mapping and localization</span>. My focus lies in developing a <span class="highlight">robust LiDAR-Inertial localization system</span> that operates reliably within a given prior map, leveraging factor graph optimization techniques. I also work as a robotics software intern at <a href="https://www.farming-revolution.com" target="_blank">Farming Revolution GmbH</a>, developing precision weeding systems through geographic data processing and optimal path generation for autonomous field robots.</p>
+      <p>
+        After working in software development, I became increasingly curious about intelligent systems and how
+        software could interact with the physical world. That curiosity eventually led me to pursue the
+        <a href="https://ifrosmaster.org/" target="_blank" rel="noopener noreferrer">Erasmus Mundus Master in Intelligent Field Robotic Systems (IFRoS)</a>.
+        Transitioning from software engineering into robotics was both exciting and challenging. Robotics is a
+        field where theory meets reality, and every component must work together under real-world uncertainty.
+      </p>
 
-        <p>Driven by a passion for robotics and problem solving, I aim to develop scalable and intelligent systems that enhance autonomy across various environments.</p>
+      <p>
+        Studying robotics pushed me far beyond writing code alone. It required understanding how robots perceive
+        the world, estimate their position, make decisions, and safely interact with dynamic environments. Learning
+        robotics was one of the most rewarding yet demanding experiences in my academic journey because it combines
+        multiple disciplines into a single intelligent system. Topics such as perception, localization, planning,
+        control, machine learning, and multi-view geometry all connect together to create autonomous robotic behavior.
+      </p>
 
-        <h2>Digital Competency</h2>
-            <div class="digital-competency">
+      <p>
+        What fascinated me most was autonomous systems and robot perception. I became deeply interested in how
+        robots can localize themselves, understand their surroundings, and operate reliably without human intervention.
+        This led me to work extensively with robotics software systems and research areas such as
+        <span class="highlight">SLAM, motion planning, and sensor fusion</span> for autonomous navigation and localization.
+      </p>
 
-                <!-- ROS / ROS2 -->
-                <div class="competency-item">
-                    <img src="https://raw.githubusercontent.com/ros-infrastructure/artwork/master/ros_logo.svg" alt="ROS">
-                    <span>ROS / ROS2</span>
-                </div>
+      <p>
+        Alongside my studies, I worked part-time as a Robotics Software Engineer at
+        <a href="https://www.farming-revolution.com/" target="_blank" rel="noopener noreferrer">Farming Revolution GmbH</a>,
+        where I contributed to autonomous agricultural robotics systems. This experience exposed me to real-world
+        robotic deployment and strengthened my understanding of professional software engineering practices such as
+        CI/CD, continuous integration, version control, collaborative development workflows, and building reliable
+        software systems for production-level robotics applications. It taught me the importance of combining strong
+        software engineering principles with advanced robotics research.
+      </p>
 
-                <!-- PyTorch -->
-                <div class="competency-item">
-                    <img src="https://pytorch.org/assets/images/pytorch-logo.png" alt="PyTorch">
-                    <span>PyTorch</span>
-                </div>
+      <p>
+        My master’s thesis focuses on robot localization in outdoor GPS-denied environments, exploring robust
+        localization techniques using LiDAR, inertial sensors, and map-based approaches for reliable autonomous
+        operation in challenging real-world conditions.
+      </p>
 
-                <!-- OpenCV -->
-                <div class="competency-item">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" alt="OpenCV">
-                    <span>OpenCV</span>
-                </div>
+      <p>
+        Today, I continue my journey as a Research Engineer with the
+        <a href="https://www.saxion.edu/research/smart-industry/smart-mechatronics-and-robotics" target="_blank" rel="noopener noreferrer">Smart Mechatronics and Robotics Research Group at Saxion University of Applied Sciences</a>,
+        focusing on localization, perception, and autonomous systems. What started as an interest in software
+        development has evolved into a passion for building intelligent robotic systems that can understand, navigate,
+        and interact with the world autonomously.
+      </p>
+    </section>
 
-                <!-- PCL -->
-                <div class="competency-item">
-                    <img src="https://pointclouds.org/assets/images/pcl_logo_square.png" alt="PCL">
-                    <span>PCL (Point Cloud Library)</span>
-                </div>
-
-                <!-- Docker -->
-                <div class="competency-item">
-                    <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Docker">
-                    <span>Docker</span>
-                </div>
-
-                <!-- Git -->
-                <div class="competency-item">
-                    <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git">
-                    <span>Git</span>
-                </div>
-
-                <!-- C++ -->
-                <div class="competency-item">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++">
-                    <span>C++</span>
-                </div>
-
-                <!-- Python -->
-                <div class="competency-item">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg" alt="Python">
-                    <span>Python</span>
-                </div>
-
-            </div>
-
-
-    </div>
+    <footer>
+      © 2026 Eliyas Kidanemariam Abraha
+    </footer>
+  </main>
 </body>
 </html>
-s
