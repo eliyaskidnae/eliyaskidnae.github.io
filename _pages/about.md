@@ -6,83 +6,44 @@ redirect_from:
   - /about.html
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Me | Robotics Career</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.7;
-      background: #f7f9fc;
-      color: #1f2937;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 60px 24px;
-    }
-
-    .card {
-      background: #ffffff;
-      padding: 48px;
-      border-radius: 18px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-    }
-
-    h1 {
-      font-size: 42px;
-      margin-bottom: 12px;
-      color: #111827;
-    }
-
-    .subtitle {
-      font-size: 18px;
-      color: #4b5563;
-      margin-bottom: 36px;
-    }
-
-    p {
-      font-size: 17px;
-      margin-bottom: 22px;
-    }
-
-    a {
-      color: #2563eb;
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .highlight {
-      font-weight: 600;
-      color: #111827;
-    }
-
-    footer {
-      margin-top: 40px;
-      font-size: 14px;
-      color: #6b7280;
-      text-align: center;
-    }
-
-    @media (max-width: 640px) {
-      .card {
-        padding: 28px;
-      }
-
-      h1 {
-        font-size: 34px;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Eliyas Kidanemariam Abraha</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            margin: 1px;
+            margin-right: 10px;
+        }
+        h1, h2, h3 {
+            color: #444;
+        }
+        .highlight {
+            color: #1a73e8;
+            /* font-weight: bold; */
+        }
+        .digital-competency {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .competency-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .competency-item img {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+        }
+    </style>
 </head>
 <body>
   <main class="container">
