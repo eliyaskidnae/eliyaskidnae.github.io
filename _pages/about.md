@@ -47,7 +47,7 @@ redirect_from:
 </head>
 <body>
   <main class="container">
-    <section class="card">
+    <!-- <section class="card"> -->
       <h1>About Me</h1>
       <p class="subtitle">Robotics Engineer | Research Engineer | Autonomous Systems Enthusiast</p>
 
@@ -105,11 +105,7 @@ redirect_from:
         development has evolved into a passion for building intelligent robotic systems that can understand, navigate,
         and interact with the world autonomously.
       </p>
-    </section>
-
-    <footer>
-      © 2026 Eliyas Kidanemariam Abraha
-    </footer>
+    
   </main>
 </body>
 </html>
