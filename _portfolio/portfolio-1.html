@@ -1,22 +1,15 @@
 ---
 title: "Autonomous Exploration of Unknown Environments Using Dubins Path-Oriented RRT*"
-excerpt: "Autonomous exploration and navigation in unknown environments present significant challenges for
-robotics—especially for differential drive robots, which require dynamically feasible and efficient path planning in
-real time. This project presents a robust software architecture designed specifically for such scenarios, integrating
-key technologies to enhance robotic autonomy.
+excerpt: Autonomous navigation in unknown environments is a major challenge in robotics, especially for differential
+drive robots that must follow realistic motion constraints while avoiding obstacles and exploring efficiently.
 
-At the heart of the system is a <strong>frontier-based exploration strategy</strong> that uses <strong>RRT*</strong>
-(Rapidly-exploring Random Trees Star) tailored with a <strong>Dubins state space</strong>, ensuring the generation of
-smooth, feasible, and collision-free trajectories suitable for non-holonomic robots.
+This project develops an autonomous exploration system using a 2D LiDAR sensor for real-time mapping and obstacle
+detection. The robot uses frontier-based exploration to identify unexplored areas and RRT* with a Dubins state space to
+generate smooth and feasible paths. A greedy frontier selection strategy is used to improve exploration efficiency and
+reduce unnecessary movement.
 
-The robot’s perception system relies on a <strong> 2D LiDAR</strong>, enabling accurate obstacle detection and real-time
-mapping of the environment. The global path planner employs <strong>RRT*</strong> enhanced with a custom cost function
-and <strong>post-processing optimization</strong> to improve path quality. To decide on the next frontier to explore, a
-<strong>greedy selection algorithm</strong> prioritizes locally valuable regions, effectively minimizing traversal cost
-and improving exploration efficiency.
-
-Together, these components create a system capable of efficiently covering unknown environments with a strong balance
-between <strong>global planning</strong> and <strong>local adaptability</strong>.
+The system combines mapping, exploration, and motion-aware path planning to enable efficient autonomous navigation in
+unknown environments.
 
 <br /><img src='/files/hoplanning.gif' alt='Top Image or GIF'><br />
 <a href='https://github.com/eliyaskidnae/Autonomous-Mobile-Robot-Navigation-and-Exploration' target='_blank'><i
@@ -27,23 +20,16 @@ between <strong>global planning</strong> and <strong>local adaptability</strong>
 "
 collection: portfolio
 ---
-Autonomous exploration and navigation in unknown environments present significant challenges for robotics—especially for
-differential drive robots, which require dynamically feasible and efficient path planning in real time. This project
-presents a robust software architecture designed specifically for such scenarios, integrating key technologies to
-enhance robotic autonomy.
+Autonomous navigation in unknown environments is a major challenge in robotics, especially for differential drive robots
+that must follow realistic motion constraints while avoiding obstacles and exploring efficiently.
 
-At the heart of the system is a <strong>frontier-based exploration strategy</strong> that uses <strong>RRT*</strong>
-(Rapidly-exploring Random Trees Star) tailored with a <strong>Dubins state space</strong>, ensuring the generation of
-smooth, feasible, and collision-free trajectories suitable for non-holonomic robots.
+This project develops an autonomous exploration system using a 2D LiDAR sensor for real-time mapping and obstacle
+detection. The robot uses frontier-based exploration to identify unexplored areas and RRT* with a Dubins state space to
+generate smooth and feasible paths. A greedy frontier selection strategy is used to improve exploration efficiency and
+reduce unnecessary movement.
 
-The robot’s perception system relies on a <strong> 2D LiDAR</strong>, enabling accurate obstacle detection and real-time
-mapping of the environment. The global path planner employs <strong>RRT*</strong> enhanced with a custom cost function
-and <strong>post-processing optimization</strong> to improve path quality. To decide on the next frontier to explore, a
-<strong>greedy selection algorithm</strong> prioritizes locally valuable regions, effectively minimizing traversal cost
-and improving exploration efficiency.
-
-Together, these components create a system capable of efficiently covering unknown environments with a strong balance
-between <strong>global planning</strong> and <strong>local adaptability</strong>.
+The system combines mapping, exploration, and motion-aware path planning to enable efficient autonomous navigation in
+unknown environments.
 
 <br /><img src='/files/hoplanning.gif' alt='Exploration Path Planning Animation'><br />
 
