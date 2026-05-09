@@ -101,7 +101,7 @@ Skills
   <img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg" alt="Python" height="40"/>
  -->
 
-Seminars and Training
+<!-- Seminars and Training
 =====================
 
 * **Task Planning Using PDDL**
@@ -113,4 +113,4 @@ Service and Leadership
 ======================
 
 * Actively participated in various robotics seminars and competitions, gaining insights into cutting-edge technologies in robotics and machine learning
-* Awarded in Huawei ICT Competition 2018-2019 for outstanding performance at the Global Final -->
+* Awarded in Huawei ICT Competition 2018-2019 for outstanding performance at the Global Final --> -->
