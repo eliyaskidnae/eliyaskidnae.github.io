@@ -9,9 +9,9 @@ last_updated: "{{ site.time | date: '%B %d, %Y' }}"
 ---
 {% include base_path %}
 
-[Download PDF of CV](/files/Abraha,Eliyas_CV.pdf)
+[Download PDF of CV](/files/Eliyas_Abraha_Resume_2026-05-09.pdf)
 
-Eduction
+<!-- Eduction
 ===============
 
 * **Erasmus Mundus Joint Master’s in Intelligent Field Robotic Systems (IFRoS)**
@@ -113,4 +113,4 @@ Service and Leadership
 ======================
 
 * Actively participated in various robotics seminars and competitions, gaining insights into cutting-edge technologies in robotics and machine learning
-* Awarded in Huawei ICT Competition 2018-2019 for outstanding performance at the Global Final
+* Awarded in Huawei ICT Competition 2018-2019 for outstanding performance at the Global Final -->
