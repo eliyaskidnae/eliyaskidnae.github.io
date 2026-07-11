@@ -2,7 +2,7 @@
 ---
 title: "LiDAR-Inertial Localization with Prior 3D Maps in GNSS-Challenged Environments"
 collection: publications
-category: manuscripts
+category: draft
 permalink: /publication/lidar-inertial-localization-prior-3d-maps
 excerpt: "A real-time localization framework combining LiDAR–inertial odometry, NDT-based scan-to-map matching, local map retrieval, and sliding-window factor-graph optimization for accurate localization in large-scale GNSS-challenged environments."
 date: 2026-07-11
